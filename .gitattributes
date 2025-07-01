@@ -1,7 +1,10 @@
-lib/** linguist-language=Dart
-android/** linguist-vendored
-ios/** linguist-vendored
-build/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-windows/** linguist-vendored
+# Mark Dart files as the main language
+*.dart linguist-detectable=true
+
+# Exclude build and native platform code from language stats
+windows/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+ios/* linguist-vendored
+android/* linguist-vendored
+build/* linguist-vendored
