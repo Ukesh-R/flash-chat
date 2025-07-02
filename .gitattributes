@@ -1,4 +1,4 @@
 # Mark Dart files as the main language
 *.dart linguist-detectable=true
-
+*.c++ linguist-detectable=false
 
